@@ -1,6 +1,4 @@
-AGENTS.md
-PLANNING.md
-train_local.py
+
 venv/
 data/
 __pycache__/
