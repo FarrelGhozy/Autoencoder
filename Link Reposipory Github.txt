@@ -1,0 +1,7 @@
+Nama : Farrel Ghozy Affifudin 
+Kelas : TI5 A2
+NIM : 452024611053
+Prodi : Teknik Informatika
+Univ : Universitas Darussalam Gontor
+
+Link Repository : https://github.com/FarrelGhozy/Autoencoder.git

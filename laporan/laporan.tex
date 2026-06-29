@@ -49,6 +49,12 @@ Training dilakukan menggunakan PyTorch dengan akselerasi GPU CUDA. Dataset Fashi
     \caption{Grafik training loss per latent dimension}
 \end{figure}
 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{../hasil/kaggle_training.png}
+    \caption{Screenshot proses training di Kaggle Notebook}
+\end{figure}
+
 \section{Tabel Perbandingan Hasil}
 \begin{table}[h!]
 \centering
@@ -115,6 +121,19 @@ python scripts/generate_from_decoder.py --decoder models/decoder_dim8.pth
     \includegraphics[width=0.25\textwidth]{../hasil/generated_dim8.png}
     \includegraphics[width=0.25\textwidth]{../hasil/generated_dim32.png}
     \caption{Hasil generasi dari decoder dengan latent vector acak (dim 2, 8, 32)}
+\end{figure}
+
+\subsection{Screenshot Terminal}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{../hasil/terminal_reconstruct.png}
+    \caption{Screenshot terminal menjalankan \texttt{reconstruct.py}}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{../hasil/terminal_generate.png}
+    \caption{Screenshot terminal menjalankan \texttt{generate\_from\_decoder.py}}
 \end{figure}
 
 \section{Analisis}
